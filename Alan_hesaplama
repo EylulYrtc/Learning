@@ -1,0 +1,15 @@
+#egerr bir karenin bir kenari yediyse alanı 49 tur.
+
+kenar = 3.15
+alan = kenar ** 2
+print("kenari", kenar, "olan karenin alani", alan, "dir")
+
+
+#eskenar ucgen
+kenar = 5
+yukseklik = 4
+alan = kenar * yukseklik /2
+print(alan)
+alan = int(alan)
+print("yukseklik",yukseklik,"ve kenari",kenar, "olan eskenar ucgenin alani", alan,"dir")
+
